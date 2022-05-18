@@ -15,17 +15,17 @@ function HowToReachUs() {
                     <div className="row pt-5">
                         <div className="col-md-6">
                             <h3 className='pt-2' style={{ color: 'gray' }}>First Name *</h3>
-                            <input type="text" style={{ background: "#535353", color: 'white', fontSize: "28px", width: "100%", borderRadius: "10px" }} />
+                            <input type="text" pattern="[A-Za-z]{3}" style={{ background: "#535353", color: 'white', fontSize: "28px", width: "100%", borderRadius: "10px" }} />
                         </div>
                         <div className="col-md-6">
                             <h3 className='pt-2' style={{ color: 'gray' }}>Last Name *</h3>
-                            <input type="text" style={{ background: "#535353", color: 'white', fontSize: "28px", width: "100%", borderRadius: "10px" }} />
+                            <input type="text" pattern="(?=.*[a-z])(?=.*[A-Z])" style={{ background: "#535353", color: 'white', fontSize: "28px", width: "100%", borderRadius: "10px" }} />
                         </div>
                     </div>
                     <h3 className='pt-2' style={{ color: 'gray' }}>Email *</h3>
-                    <input type="text" style={{ background: "#535353", color: 'white', fontSize: "28px", width: "100%", borderRadius: "10px" }} />
+                    <input type="email" style={{ background: "#535353", color: 'white', fontSize: "28px", width: "100%", borderRadius: "10px" }} />
                     <h3 className='pt-2' style={{ color: 'gray' }}>Telephone</h3>
-                    <input type="text" style={{ background: "#535353", color: 'white', fontSize: "28px", width: "100%", borderRadius: "10px" }} />
+                    <input type="text" required pattern="(?=.*\d).{10,}" minLength="10" maxLength="10" style={{ background: "#535353", color: 'white', fontSize: "28px", width: "100%", borderRadius: "10px" }} />
                     <h3 className='pt-2' style={{ color: 'gray' }}>Message</h3>
                     <textarea rows="4" style={{ background: "#535353", color: "white", fontSize: "28px", width: "100%", borderRadius: "10px" }} />
                     <h3 className='pt-2' style={{ color: 'gray' }}>* required fields</h3>
