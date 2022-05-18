@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+    .form_and_map_container{
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .submit_btn{
+        float: right;
+    }
+}
+@media (max-width: 768px) {
+    .form_and_map_container{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .submit_btn{
+        width: 100%;
+    }
+}

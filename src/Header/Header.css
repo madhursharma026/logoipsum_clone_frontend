@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+    .navbar_data{
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+}
+@media (max-width: 1300px) {
+    .location_and_contact_option{
+        display: none;
+    }
+}
+@media (max-width: 1100px) {
+    .movie_library_option{
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .schedule_option{
+        display: none;
+    }
+}
+@media (max-width: 892px) {
+    .our_services_option{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .navbar_data{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .home_option{
+        display: none;
+    }
+}
+
+
